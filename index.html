@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signify panel</title>
+        <link rel="stylesheet" href="style/main.css" />
+        <link rel="stylesheet" href="style/theme.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle theme"
+        ></button>
+        <form id="form" class="form" method="post">
+            <div class="container">
+                <h1>Sign up</h1>
+                <hr />
+                <div class="inputs">
+                    <div class="form-control">
+                        <label for="uname"> Username: </label>
+                        <input
+                            type="text"
+                            placeholder="Enter your username"
+                            name="uname"
+                            id="uname"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email"> Email: </label>
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            name="email"
+                            id="email"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="pass"> Password: </label>
+                        <input
+                            type="password"
+                            placeholder="Enter your password"
+                            name="pass"
+                            id="pass"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="pass2"> Confirm Password: </label>
+                        <input
+                            type="password"
+                            placeholder="Confirm your password"
+                            name="pass2"
+                            id="pass2"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+        <script src="script/theme.js"></script>
+        <script src="script/app.js"></script>
+    </body>
+</html>
