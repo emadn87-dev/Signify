@@ -7,7 +7,7 @@ A sleek front-end registration form crafted with love using HTML, CSS, and JavaS
 Experience the site live at 👉 [Click me](https://signify-emadn87-dev.netlify.app)
 
 ## Demo Preview 📸  
-![Form Preview](images/screenshot.png)  
+![Form Preview](/Assets/Images/screenshot.png)  
 
 ## Description 📝  
 A modern, responsive registration form with smooth animations and validation. Built with pure HTML, CSS, and JavaScript to provide an exceptional user experience.
